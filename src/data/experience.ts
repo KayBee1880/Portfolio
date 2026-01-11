@@ -208,7 +208,6 @@ export const experience: Experience[] = [
         location: "Remote, USA",
         dates: "Dec 2025 - Present",
         tags: ["Professional Development", "Career Readiness", "Leadership"],
-        stack: [],
         bullets: [
             "Selected as a Propel2Excel Fellow in a professional development program focused on technical growth, career readiness, and leadership in technology.",
             "Completed workshops on software engineering fundamentals, interview preparation, and professional communication while engaging with mentors and peer cohorts."
