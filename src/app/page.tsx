@@ -32,7 +32,7 @@ const profile = {
   links: {
     github: "https://github.com/KayBee1880",
     linkedin: "https://linkedin.com/in/kboateng18",
-    resume: "/resume.pdf",
+    resume: "/KWAKU_BOATENG_Resume_2026.pdf",
     email: "boatengkwaku1965@gmail.com",
   },
 };

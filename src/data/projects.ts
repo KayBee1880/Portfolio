@@ -15,6 +15,38 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        slug: "raftmage",
+        name: "RaftMage",
+        tagline: "Fault-tolerant distributed key-value store built on Raft consensus",
+        role: "Backend / Distributed Systems Engineer",
+        categories: ["Backend"],
+        stack: ["Go", "Raft Consensus", "gRPC", "Protobuf"],
+        bullets: [
+            "Architected a distributed, sharded key-value store in Go utilizing the Raft consensus protocol to ensure strong data consistency.",
+            "Implemented a custom gRPC API with Protobuf to facilitate low-latency inter-node communication and state machine replication.",
+            "Designed fault-tolerant recovery mechanisms to handle network partitions and node crashes with zero data loss.",
+        ],
+        metrics: ["Zero data loss", "Strong consistency", "Fault-tolerant"],
+        links: { code: "#", live: "#" },
+        featured: true,
+    },
+    {
+        slug: "safelink",
+        name: "Safelink",
+        tagline: "Decentralized peer-to-peer mesh messaging for zero-infrastructure environments",
+        role: "Systems / Security Engineer",
+        categories: ["Backend", "Full-Stack"],
+        stack: ["BLE/WiFi Direct Mesh", "Web API", "Leaflet", "AES-256", "Vite"],
+        bullets: [
+            "Contributed to building an offline-first peer-to-peer mesh messaging system for zero-infrastructure environments.",
+            "Implemented secure messaging features using AES-256 encryption with HMAC verification to ensure data integrity.",
+            "Assisted in designing routing logic and retry mechanisms to improve message delivery in unstable networks.",
+        ],
+        metrics: ["AES-256 encrypted", "Offline-first", "Zero infrastructure"],
+        links: { code: "#", live: "#" },
+        featured: true,
+    },
+    {
         slug: "pulsegsu",
         name: "PulseGSU",
         tagline: "Student event discovery + RSVP platform for campus life",
@@ -37,8 +69,9 @@ export const projects: Project[] = [
         categories: ["Full-Stack", "Data/ML"],
         stack: ["React", "Tailwind", "Flask", "OpenAI API", "Netlify", "GitHub Actions"],
         bullets: [
-            "Built a scalable web app summarizing tech news for 500+ students, reducing research time by 60%.",
-            "Integrated automated summarization; deployed on Netlify (99.9% uptime) and boosted team efficiency by 40% via CI/CD.",
+            "Architected a responsive full-stack web application using React and Flask to automate data aggregation and summarization for 500+ users.",
+            "Integrated asynchronous processing to handle heavy OpenAI API payloads, optimizing client-side rendering speeds and UI responsiveness.",
+            "Established a CI/CD pipeline via GitHub Actions for automated testing, deploying to production with 99.9% uptime validation.",
         ],
         metrics: ["500+ students", "Research time -60%", "Uptime 99.9%"],
         links: { code: "https://github.com/KayBee1880/techdigest", live: "https://techdigest.netlify.app" },
@@ -52,8 +85,9 @@ export const projects: Project[] = [
         categories: ["Data/ML", "Backend"],
         stack: ["Pandas", "SQL", "Kafka", "Grafana"],
         bullets: [
-            "Designed a KPI tracking platform enabling A/B testing and analysis at scale (10K+ users).",
-            "Implemented fault-tolerant queues + monitoring to improve data availability and responsiveness.",
+            "Architected real-time data ingestion pipelines using Kafka to stream performance metrics for 10K+ concurrent users.",
+            "Designed fault-tolerant message queues and automated retry logic to eliminate data loss and guarantee high availability.",
+            "Integrated Grafana dashboards with optimized SQL query engines to visualize streaming telemetry with sub-second latency.",
         ],
         metrics: ["10K+ users", "Fault-tolerant pipelines"],
         links: { code: "https://github.com/KayBee1880/DailySync", live: "#" },
