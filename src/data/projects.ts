@@ -27,7 +27,6 @@ export const projects: Project[] = [
             "Designed fault-tolerant recovery mechanisms to handle network partitions and node crashes with zero data loss.",
         ],
         metrics: ["Zero data loss", "Strong consistency", "Fault-tolerant"],
-        links: { code: "#", live: "#" },
         featured: true,
     },
     {
@@ -43,7 +42,6 @@ export const projects: Project[] = [
             "Assisted in designing routing logic and retry mechanisms to improve message delivery in unstable networks.",
         ],
         metrics: ["AES-256 encrypted", "Offline-first", "Zero infrastructure"],
-        links: { code: "#", live: "#" },
         featured: true,
     },
     {
@@ -58,8 +56,6 @@ export const projects: Project[] = [
             "Improved RSVP process speed by 40% and boosted accessibility scores by 35%.",
         ],
         metrics: ["500+ users", "RSVP +40%", "Accessibility +35%"],
-        links: { code: "#", live: "#" },
-
     },
     {
         slug: "techdigest",
@@ -74,7 +70,6 @@ export const projects: Project[] = [
             "Established a CI/CD pipeline via GitHub Actions for automated testing, deploying to production with 99.9% uptime validation.",
         ],
         metrics: ["500+ students", "Research time -60%", "Uptime 99.9%"],
-        links: { code: "https://github.com/KayBee1880/techdigest", live: "https://techdigest.netlify.app" },
         featured: true,
     },
     {
@@ -90,7 +85,6 @@ export const projects: Project[] = [
             "Integrated Grafana dashboards with optimized SQL query engines to visualize streaming telemetry with sub-second latency.",
         ],
         metrics: ["10K+ users", "Fault-tolerant pipelines"],
-        links: { code: "https://github.com/KayBee1880/DailySync", live: "#" },
         featured: true,
     },
     {
@@ -107,7 +101,6 @@ export const projects: Project[] = [
             "Enabled secure, low-latency traffic via inter-cloud VPC peering.",
         ],
         metrics: ["Setup time -45%", "DB downtime -80%", "Zero-downtime rollbacks"],
-        links: { code: "#", live: "#" },
     },
     {
         slug: "fitgeanie",
@@ -121,7 +114,6 @@ export const projects: Project[] = [
             "Automated intake and delivery workflows with Zapier and containerization to improve engagement and scalability.",
         ],
         metrics: ["180+ users", "Planning time -50%"],
-        links: { code: "https://studio.pickaxe.co/STUDIOF7U1Q5TR12R84H8/FitGeanie__Your_Health__Fitness_Assistant_WE3LP?_gl=1*ohjq8c*_gcl_aw*R0NMLjE3NjgxNTcwMDkuQ2owS0NRaUFzWTNMQmhDd0FSSXNBRjZPNlhnc0pjRU1pLWlURXNaRjJRbDZuWDVwTUt0dHR0eUtlekk4MUZrb0VaRmd5Tlk5UEUwS25rSWFBcm04RUFMd193Y0I.*_gcl_au*MTU2OTEzNTMzMC4xNzY4MTU3MDA3", live: "#" },
         featured: true,
     },
     {
@@ -135,7 +127,6 @@ export const projects: Project[] = [
             "Developed CNN-based classifier with variational autoencoders to enhance bias mitigation and reliability.",
             "Tracked performance and fairness metrics using Comet ML to maintain stability under training.",
         ],
-        links: { code: "https://github.com/KayBee1880/LatentSync-Configuration-files-used", live: "#" },
         featured: true,
     },
 
@@ -152,7 +143,6 @@ export const projects: Project[] = [
             "Simulated directory traversal attacks on FTP servers and DoS attacks on SSL proxies to validate detection coverage.",
             "Built actionable visualizations and queries to improve real-time threat detection and response workflows.",
         ],
-        links: { code: "#", live: "#" },
     },
     {
         slug: "cybersecurity-simulation-suite",
@@ -167,7 +157,6 @@ export const projects: Project[] = [
             "Applied NIST security standards to improve risk prioritization and system resilience.",
         ],
         metrics: ["~80% recovery success", "15+ high-risk vulns"],
-        links: { code: "#", live: "#" },
     },
     {
         slug: "defensive-cyber-capstone",
@@ -182,7 +171,6 @@ export const projects: Project[] = [
             "Implemented mitigations reducing potential exploit exposure by ~25% and improving team processes.",
         ],
         metrics: ["Exploit exposure -25%"],
-        links: { code: "#", live: "#" },
     },
     {
         slug: "incident-response-threat-hunting",
@@ -196,7 +184,6 @@ export const projects: Project[] = [
             "Identified IOCs, reconstructed attack timelines, and improved system readiness via proactive hunting.",
             "Reduced endpoint exposure through structured forensic documentation and remediation playbooks.",
         ],
-        links: { code: "#", live: "#" },
     },
 ];
 
