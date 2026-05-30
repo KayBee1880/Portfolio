@@ -5,7 +5,7 @@ It showcases my experience, projects, and skills across **software engineering, 
 
 The site is built with modern web technologies, designed to be fast, accessible, and visually polished, with full **dark/light mode support**.
 
-🔗 **Live Site:** https://YOUR-VERCEL-URL.vercel.app  
+🔗 **Live Site:** https://kwaku-boateng-portfolio.vercel.app/
 📄 **Resume:** Available directly on the website  
 📬 **Contact:** Integrated contact form via Formspree
 
